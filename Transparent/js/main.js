@@ -6,4 +6,9 @@ $(function(){
 		},400);
 		$('#parent')
 	});
+	$('#back').click(function(){
+		$('#cc-info').stop().animate({
+			right:"-1680px"
+		},400);
+	});
 });
